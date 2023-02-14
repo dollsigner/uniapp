@@ -1,0 +1,30 @@
+
+<!-- <view class="question">
+    <view class="surface">
+        [序号]、您的学历是怎样的有没有设么方法可以让您边的分厂的强壮和有魄力让后政府天下美女？[题面][类型]
+    </view>
+    <view class="option">
+        <radio-group>
+            <radio value="" color="green">你是干什么吃的</radio>
+            <radio value="" color="green">你是干什么吃的</radio>
+            <radio value="" color="green">你是干什么吃的</radio>
+            <radio value="" color="green">你是干什么吃的</radio>
+        </radio-group>
+    </view>
+</view> -->
+
+<view class="question">
+    <view class="surface">
+        <!-- {{que}} -->
+        {{que.id}}、{{que.subject}}
+    </view>
+    <view class="option">
+        <radio-group bindchange="handleChange">
+            <radio :value="que.id" color="green">{{que.option[0]}}</radio>
+            <radio :value="que.id" color="green">{{que.option[1]}}</radio>
+            <radio :value="que.id" color="green">{{que.option[2]}}</radio>
+            <radio :value="que.id" color="green">{{que.option[3]}}</radio>
+        </radio-group>
+    </view>
+</view>
+

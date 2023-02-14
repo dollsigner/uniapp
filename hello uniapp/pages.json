@@ -1,0 +1,112 @@
+{
+	"pages": [{
+			"path": "pages/welcome/welcome",
+			"style": {
+
+			}
+		},
+
+		{
+			"path": "pages/stockDetail/stockDetail",
+			"style": {
+
+			}
+		},
+
+		{
+			"path": "pages/fundDetail/fundDetail",
+			"style": {
+
+			}
+		},
+
+		{
+			"path": "pages/recommendation/recommendation",
+			"style": {
+
+			}
+		},
+
+		{
+			"path": "pages/storage/storage",
+			"style": {
+
+			}
+		},
+
+
+		{
+			"path": "pages/mine/mine",
+			"style": {
+
+			}
+		},
+
+
+		{
+			"path": "pages/mine/evaluation/evaluation",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+
+		{
+			"path": "pages/storage/add/add",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		},
+		
+		{
+			"path": "pages/comboDetail/comboDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "朱雀智投",
+		"navigationBarBackgroundColor": "#576b95",
+		"backgroundColor": "#F8F8F8",
+		"enablePullDownRefresh": true,
+		"app-plus": {
+			"background": "#efeff4"
+		},
+		"usingComponents": {
+
+		}
+	},
+
+	"tabBar": {
+		"list": [{
+				"text": "推荐",
+				"pagePath": "pages/recommendation/recommendation"
+			},
+			{
+				"text": "仓库",
+				"pagePath": "pages/storage/storage"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/mine/mine"
+			}
+		]
+	},
+
+	"condition": { //编译模式配置，仅开发期间生效  
+		"current": 0, //当前激活的编译模式（list 的索引项）  
+		"list": [{
+			"name": "详情页面", //模式名称
+			"path": "pages/welcome/welcome", //启动页面，必选
+			"query": "id=1" //启动参数，在页面的onLoad函数里面得到。
+		}]
+	}
+}

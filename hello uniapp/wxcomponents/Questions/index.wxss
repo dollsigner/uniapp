@@ -1,0 +1,19 @@
+.question{
+    padding:20rpx;
+    margin:10rpx;
+    border:1rpx solid #576B95;
+    border-radius: 5%;
+}
+
+.surface{
+    padding-bottom: 30rpx;
+    font-size: large;
+    color: #576B95;
+} 
+
+.option radio{
+    display: flex;
+    padding-bottom: 20rpx;
+    font-size: medium;
+    width: fit-content;
+}
