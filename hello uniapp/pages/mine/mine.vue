@@ -181,7 +181,7 @@
 				let sessionKey = uni.getStorageSync('sessionKey')
 
 				let res = await reqUserDetail(sessionKey)
-				// console.log(res)
+				 console.log(res)
 				this.curUserInfo = res.data.data
 				//将新请求到的用户信息提交仓库
 				this.$store.commit('SETUSERINFO', res.data.data)

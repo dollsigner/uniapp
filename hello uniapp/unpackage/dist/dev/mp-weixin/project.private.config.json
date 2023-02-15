@@ -1,72 +1,66 @@
 {
-    "setting": {},
-    "condition": {
-        "plugin": {
-            "list": []
+  "setting": {
+    "compileHotReLoad": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "详情页面",
+          "pathName": "pages/mine/mine",
+          "query": "id=1"
         },
-        "game": {
-            "list": []
+        {
+          "name": "pages/mine/mine",
+          "pathName": "pages/mine/mine",
+          "query": "id=1",
+          "scene": null
         },
-        "gamePlugin": {
-            "list": []
+        {
+          "name": "pages/recommendation/recommendation",
+          "pathName": "pages/recommendation/recommendation",
+          "query": "id=1",
+          "scene": null
         },
-        "miniprogram": {
-            "list": [
-                {
-                    "id": 0,
-                    "name": "详情页面",
-                    "pathName": "pages/mine/mine",
-                    "query": "id=1"
-                },
-                {
-                    "name": "pages/mine/mine",
-                    "pathName": "pages/mine/mine",
-                    "query": "id=1",
-                    "scene": null
-                },
-                {
-                    "name": "pages/recommendation/recommendation",
-                    "pathName": "pages/recommendation/recommendation",
-                    "query": "id=1",
-                    "scene": null
-                },
-                {
-                    "name": "pages/storage/storage",
-                    "pathName": "pages/storage/storage",
-                    "query": "id=1",
-                    "scene": null
-                },
-                {
-                    "name": "pages/mine/evaluation/evaluation",
-                    "pathName": "pages/mine/evaluation/evaluation",
-                    "query": "id=1",
-                    "scene": null
-                },
-                {
-                    "name": "pages/storage/backset/backset",
-                    "pathName": "pages/storage/backset/backset",
-                    "query": "id=1",
-                    "scene": null
-                },
-                {
-                    "name": "pages/storage/add/add",
-                    "pathName": "pages/storage/add/add",
-                    "query": "id=1",
-                    "scene": null
-                },
-                {
-                    "name": "pages/stockDetail/stockDetail",
-                    "pathName": "pages/stockDetai/stockDetail",
-                    "query": "id=1",
-                    "scene": null
-                },
-                {
-                    "name": "pages/comboDetail/comboDetail",
-                    "pathName": "pages/comboDetail/comboDetail",
-                    "query": "",
-                    "scene": null
-                }
-            ]
+        {
+          "name": "pages/storage/storage",
+          "pathName": "pages/storage/storage",
+          "query": "id=1",
+          "scene": null
+        },
+        {
+          "name": "pages/mine/evaluation/evaluation",
+          "pathName": "pages/mine/evaluation/evaluation",
+          "query": "id=1",
+          "scene": null
+        },
+        {
+          "name": "pages/storage/backset/backset",
+          "pathName": "pages/storage/backset/backset",
+          "query": "id=1",
+          "scene": null
+        },
+        {
+          "name": "pages/storage/add/add",
+          "pathName": "pages/storage/add/add",
+          "query": "id=1",
+          "scene": null
+        },
+        {
+          "name": "pages/stockDetail/stockDetail",
+          "pathName": "pages/stockDetai/stockDetail",
+          "query": "id=1",
+          "scene": null
+        },
+        {
+          "name": "pages/comboDetail/comboDetail",
+          "pathName": "pages/comboDetail/comboDetail",
+          "query": "",
+          "scene": null
         }
+      ]
     }
+  },
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "projectname": "hello uniapp"
 }

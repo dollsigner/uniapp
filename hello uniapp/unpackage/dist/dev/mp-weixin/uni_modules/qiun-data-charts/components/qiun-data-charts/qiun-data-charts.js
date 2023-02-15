@@ -1,19 +1,19 @@
 (global["webpackJsonp"] = global["webpackJsonp"] || []).push([["uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts"],{
 
-/***/ 230:
-/*!**************************************************************************************************************************************!*\
-  !*** D:/HBuilderX.3.6.4.20220922/project/hello uniapp/uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts.vue ***!
-  \**************************************************************************************************************************************/
+/***/ 251:
+/*!********************************************************************************************************************!*\
+  !*** D:/project/uniapp/hello uniapp/uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts.vue ***!
+  \********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _qiun_data_charts_vue_vue_type_template_id_fe947b98_scoped_true_filter_modules_eyJyZGNoYXJ0cyI6eyJ0eXBlIjoicmVuZGVyanMiLCJjb250ZW50IjoiIiwic3RhcnQiOjM4ODkwLCJhdHRycyI6eyJtb2R1bGUiOiJyZGNoYXJ0cyIsImxhbmciOiJqcyJ9LCJlbmQiOjU0NjcyfX0_3D___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./qiun-data-charts.vue?vue&type=template&id=fe947b98&scoped=true&filter-modules=eyJyZGNoYXJ0cyI6eyJ0eXBlIjoicmVuZGVyanMiLCJjb250ZW50IjoiIiwic3RhcnQiOjM4ODkwLCJhdHRycyI6eyJtb2R1bGUiOiJyZGNoYXJ0cyIsImxhbmciOiJqcyJ9LCJlbmQiOjU0NjcyfX0%3D& */ 231);
-/* harmony import */ var _qiun_data_charts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./qiun-data-charts.vue?vue&type=script&lang=js& */ 233);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _qiun_data_charts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _qiun_data_charts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var _qiun_data_charts_vue_vue_type_style_index_0_id_fe947b98_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./qiun-data-charts.vue?vue&type=style&index=0&id=fe947b98&scoped=true&lang=css& */ 240);
-/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/runtime/componentNormalizer.js */ 11);
+/* harmony import */ var _qiun_data_charts_vue_vue_type_template_id_fe947b98_scoped_true_filter_modules_eyJyZGNoYXJ0cyI6eyJ0eXBlIjoicmVuZGVyanMiLCJjb250ZW50IjoiIiwic3RhcnQiOjM4ODkwLCJhdHRycyI6eyJtb2R1bGUiOiJyZGNoYXJ0cyIsImxhbmciOiJqcyJ9LCJlbmQiOjU0NjcyfX0_3D___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./qiun-data-charts.vue?vue&type=template&id=fe947b98&scoped=true&filter-modules=eyJyZGNoYXJ0cyI6eyJ0eXBlIjoicmVuZGVyanMiLCJjb250ZW50IjoiIiwic3RhcnQiOjM4ODkwLCJhdHRycyI6eyJtb2R1bGUiOiJyZGNoYXJ0cyIsImxhbmciOiJqcyJ9LCJlbmQiOjU0NjcyfX0%3D& */ 252);
+/* harmony import */ var _qiun_data_charts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./qiun-data-charts.vue?vue&type=script&lang=js& */ 254);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _qiun_data_charts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _qiun_data_charts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _qiun_data_charts_vue_vue_type_style_index_0_id_fe947b98_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./qiun-data-charts.vue?vue&type=style&index=0&id=fe947b98&scoped=true&lang=css& */ 267);
+/* harmony import */ var _HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../../../HBuilderX.3.6.18.20230117/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/runtime/componentNormalizer.js */ 32);
 
 var renderjs
 
@@ -23,7 +23,7 @@ var renderjs
 
 /* normalize component */
 
-var component = Object(_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+var component = Object(_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
   _qiun_data_charts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _qiun_data_charts_vue_vue_type_template_id_fe947b98_scoped_true_filter_modules_eyJyZGNoYXJ0cyI6eyJ0eXBlIjoicmVuZGVyanMiLCJjb250ZW50IjoiIiwic3RhcnQiOjM4ODkwLCJhdHRycyI6eyJtb2R1bGUiOiJyZGNoYXJ0cyIsImxhbmciOiJqcyJ9LCJlbmQiOjU0NjcyfX0_3D___WEBPACK_IMPORTED_MODULE_0__["render"],
   _qiun_data_charts_vue_vue_type_template_id_fe947b98_scoped_true_filter_modules_eyJyZGNoYXJ0cyI6eyJ0eXBlIjoicmVuZGVyanMiLCJjb250ZW50IjoiIiwic3RhcnQiOjM4ODkwLCJhdHRycyI6eyJtb2R1bGUiOiJyZGNoYXJ0cyIsImxhbmciOiJqcyJ9LCJlbmQiOjU0NjcyfX0_3D___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
@@ -41,32 +41,32 @@ component.options.__file = "uni_modules/qiun-data-charts/components/qiun-data-ch
 
 /***/ }),
 
-/***/ 231:
-/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** D:/HBuilderX.3.6.4.20220922/project/hello uniapp/uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts.vue?vue&type=template&id=fe947b98&scoped=true&filter-modules=eyJyZGNoYXJ0cyI6eyJ0eXBlIjoicmVuZGVyanMiLCJjb250ZW50IjoiIiwic3RhcnQiOjM4ODkwLCJhdHRycyI6eyJtb2R1bGUiOiJyZGNoYXJ0cyIsImxhbmciOiJqcyJ9LCJlbmQiOjU0NjcyfX0%3D& ***!
-  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ 252:
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** D:/project/uniapp/hello uniapp/uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts.vue?vue&type=template&id=fe947b98&scoped=true&filter-modules=eyJyZGNoYXJ0cyI6eyJ0eXBlIjoicmVuZGVyanMiLCJjb250ZW50IjoiIiwic3RhcnQiOjM4ODkwLCJhdHRycyI6eyJtb2R1bGUiOiJyZGNoYXJ0cyIsImxhbmciOiJqcyJ9LCJlbmQiOjU0NjcyfX0%3D& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_template_id_fe947b98_scoped_true_filter_modules_eyJyZGNoYXJ0cyI6eyJ0eXBlIjoicmVuZGVyanMiLCJjb250ZW50IjoiIiwic3RhcnQiOjM4ODkwLCJhdHRycyI6eyJtb2R1bGUiOiJyZGNoYXJ0cyIsImxhbmciOiJqcyJ9LCJlbmQiOjU0NjcyfX0_3D___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!./qiun-data-charts.vue?vue&type=template&id=fe947b98&scoped=true&filter-modules=eyJyZGNoYXJ0cyI6eyJ0eXBlIjoicmVuZGVyanMiLCJjb250ZW50IjoiIiwic3RhcnQiOjM4ODkwLCJhdHRycyI6eyJtb2R1bGUiOiJyZGNoYXJ0cyIsImxhbmciOiJqcyJ9LCJlbmQiOjU0NjcyfX0%3D& */ 232);
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_template_id_fe947b98_scoped_true_filter_modules_eyJyZGNoYXJ0cyI6eyJ0eXBlIjoicmVuZGVyanMiLCJjb250ZW50IjoiIiwic3RhcnQiOjM4ODkwLCJhdHRycyI6eyJtb2R1bGUiOiJyZGNoYXJ0cyIsImxhbmciOiJqcyJ9LCJlbmQiOjU0NjcyfX0_3D___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_template_id_fe947b98_scoped_true_filter_modules_eyJyZGNoYXJ0cyI6eyJ0eXBlIjoicmVuZGVyanMiLCJjb250ZW50IjoiIiwic3RhcnQiOjM4ODkwLCJhdHRycyI6eyJtb2R1bGUiOiJyZGNoYXJ0cyIsImxhbmciOiJqcyJ9LCJlbmQiOjU0NjcyfX0_3D___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../HBuilderX.3.6.18.20230117/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../HBuilderX.3.6.18.20230117/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!../../../../../../../HBuilderX.3.6.18.20230117/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!../../../../../../../HBuilderX.3.6.18.20230117/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!../../../../../../../HBuilderX.3.6.18.20230117/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!../../../../../../../HBuilderX.3.6.18.20230117/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!./qiun-data-charts.vue?vue&type=template&id=fe947b98&scoped=true&filter-modules=eyJyZGNoYXJ0cyI6eyJ0eXBlIjoicmVuZGVyanMiLCJjb250ZW50IjoiIiwic3RhcnQiOjM4ODkwLCJhdHRycyI6eyJtb2R1bGUiOiJyZGNoYXJ0cyIsImxhbmciOiJqcyJ9LCJlbmQiOjU0NjcyfX0%3D& */ 253);
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_template_id_fe947b98_scoped_true_filter_modules_eyJyZGNoYXJ0cyI6eyJ0eXBlIjoicmVuZGVyanMiLCJjb250ZW50IjoiIiwic3RhcnQiOjM4ODkwLCJhdHRycyI6eyJtb2R1bGUiOiJyZGNoYXJ0cyIsImxhbmciOiJqcyJ9LCJlbmQiOjU0NjcyfX0_3D___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_template_id_fe947b98_scoped_true_filter_modules_eyJyZGNoYXJ0cyI6eyJ0eXBlIjoicmVuZGVyanMiLCJjb250ZW50IjoiIiwic3RhcnQiOjM4ODkwLCJhdHRycyI6eyJtb2R1bGUiOiJyZGNoYXJ0cyIsImxhbmciOiJqcyJ9LCJlbmQiOjU0NjcyfX0_3D___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_template_id_fe947b98_scoped_true_filter_modules_eyJyZGNoYXJ0cyI6eyJ0eXBlIjoicmVuZGVyanMiLCJjb250ZW50IjoiIiwic3RhcnQiOjM4ODkwLCJhdHRycyI6eyJtb2R1bGUiOiJyZGNoYXJ0cyIsImxhbmciOiJqcyJ9LCJlbmQiOjU0NjcyfX0_3D___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "recyclableRender", function() { return _HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_template_id_fe947b98_scoped_true_filter_modules_eyJyZGNoYXJ0cyI6eyJ0eXBlIjoicmVuZGVyanMiLCJjb250ZW50IjoiIiwic3RhcnQiOjM4ODkwLCJhdHRycyI6eyJtb2R1bGUiOiJyZGNoYXJ0cyIsImxhbmciOiJqcyJ9LCJlbmQiOjU0NjcyfX0_3D___WEBPACK_IMPORTED_MODULE_0__["recyclableRender"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "recyclableRender", function() { return _HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_template_id_fe947b98_scoped_true_filter_modules_eyJyZGNoYXJ0cyI6eyJ0eXBlIjoicmVuZGVyanMiLCJjb250ZW50IjoiIiwic3RhcnQiOjM4ODkwLCJhdHRycyI6eyJtb2R1bGUiOiJyZGNoYXJ0cyIsImxhbmciOiJqcyJ9LCJlbmQiOjU0NjcyfX0_3D___WEBPACK_IMPORTED_MODULE_0__["recyclableRender"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "components", function() { return _HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_template_id_fe947b98_scoped_true_filter_modules_eyJyZGNoYXJ0cyI6eyJ0eXBlIjoicmVuZGVyanMiLCJjb250ZW50IjoiIiwic3RhcnQiOjM4ODkwLCJhdHRycyI6eyJtb2R1bGUiOiJyZGNoYXJ0cyIsImxhbmciOiJqcyJ9LCJlbmQiOjU0NjcyfX0_3D___WEBPACK_IMPORTED_MODULE_0__["components"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "components", function() { return _HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_template_id_fe947b98_scoped_true_filter_modules_eyJyZGNoYXJ0cyI6eyJ0eXBlIjoicmVuZGVyanMiLCJjb250ZW50IjoiIiwic3RhcnQiOjM4ODkwLCJhdHRycyI6eyJtb2R1bGUiOiJyZGNoYXJ0cyIsImxhbmciOiJqcyJ9LCJlbmQiOjU0NjcyfX0_3D___WEBPACK_IMPORTED_MODULE_0__["components"]; });
 
 
 
 /***/ }),
 
-/***/ 232:
-/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/HBuilderX.3.6.4.20220922/project/hello uniapp/uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts.vue?vue&type=template&id=fe947b98&scoped=true&filter-modules=eyJyZGNoYXJ0cyI6eyJ0eXBlIjoicmVuZGVyanMiLCJjb250ZW50IjoiIiwic3RhcnQiOjM4ODkwLCJhdHRycyI6eyJtb2R1bGUiOiJyZGNoYXJ0cyIsImxhbmciOiJqcyJ9LCJlbmQiOjU0NjcyfX0%3D& ***!
-  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ 253:
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/project/uniapp/hello uniapp/uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts.vue?vue&type=template&id=fe947b98&scoped=true&filter-modules=eyJyZGNoYXJ0cyI6eyJ0eXBlIjoicmVuZGVyanMiLCJjb250ZW50IjoiIiwic3RhcnQiOjM4ODkwLCJhdHRycyI6eyJtb2R1bGUiOiJyZGNoYXJ0cyIsImxhbmciOiJqcyJ9LCJlbmQiOjU0NjcyfX0%3D& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -79,12 +79,12 @@ __webpack_require__.r(__webpack_exports__);
 var components
 try {
   components = {
-    qiunLoading: function() {
-      return __webpack_require__.e(/*! import() | uni_modules/qiun-data-charts/components/qiun-loading/qiun-loading */ "uni_modules/qiun-data-charts/components/qiun-loading/qiun-loading").then(__webpack_require__.bind(null, /*! @/uni_modules/qiun-data-charts/components/qiun-loading/qiun-loading.vue */ 270))
+    qiunLoading: function () {
+      return __webpack_require__.e(/*! import() | uni_modules/qiun-data-charts/components/qiun-loading/qiun-loading */ "uni_modules/qiun-data-charts/components/qiun-loading/qiun-loading").then(__webpack_require__.bind(null, /*! @/uni_modules/qiun-data-charts/components/qiun-loading/qiun-loading.vue */ 297))
     },
-    qiunError: function() {
-      return __webpack_require__.e(/*! import() | uni_modules/qiun-data-charts/components/qiun-error/qiun-error */ "uni_modules/qiun-data-charts/components/qiun-error/qiun-error").then(__webpack_require__.bind(null, /*! @/uni_modules/qiun-data-charts/components/qiun-error/qiun-error.vue */ 275))
-    }
+    qiunError: function () {
+      return __webpack_require__.e(/*! import() | uni_modules/qiun-data-charts/components/qiun-error/qiun-error */ "uni_modules/qiun-data-charts/components/qiun-error/qiun-error").then(__webpack_require__.bind(null, /*! @/uni_modules/qiun-data-charts/components/qiun-error/qiun-error.vue */ 302))
+    },
   }
 } catch (e) {
   if (
@@ -103,7 +103,7 @@ try {
     throw e
   }
 }
-var render = function() {
+var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
@@ -116,190 +116,40 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ 233:
-/*!***************************************************************************************************************************************************************!*\
-  !*** D:/HBuilderX.3.6.4.20220922/project/hello uniapp/uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts.vue?vue&type=script&lang=js& ***!
-  \***************************************************************************************************************************************************************/
+/***/ 254:
+/*!*********************************************************************************************************************************************!*\
+  !*** D:/project/uniapp/hello uniapp/uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/babel-loader/lib!../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!./qiun-data-charts.vue?vue&type=script&lang=js& */ 234);
-/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
- /* harmony default export */ __webpack_exports__["default"] = (_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
+/* harmony import */ var _HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../HBuilderX.3.6.18.20230117/HBuilderX/plugins/uniapp-cli/node_modules/babel-loader/lib!../../../../../../../HBuilderX.3.6.18.20230117/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!../../../../../../../HBuilderX.3.6.18.20230117/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!../../../../../../../HBuilderX.3.6.18.20230117/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!../../../../../../../HBuilderX.3.6.18.20230117/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!./qiun-data-charts.vue?vue&type=script&lang=js& */ 255);
+/* harmony import */ var _HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
-/***/ 234:
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/HBuilderX.3.6.4.20220922/project/hello uniapp/uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ 255:
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/project/uniapp/hello uniapp/uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uniCloud, uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
+/* WEBPACK VAR INJECTION */(function(uniCloud, uni) {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var _uCharts = _interopRequireDefault(__webpack_require__(/*! ../../js_sdk/u-charts/u-charts.js */ 238));
-var _configUcharts = _interopRequireDefault(__webpack_require__(/*! ../../js_sdk/u-charts/config-ucharts.js */ 239));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} //
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _typeof2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/typeof */ 13));
+var _uCharts = _interopRequireDefault(__webpack_require__(/*! ../../js_sdk/u-charts/u-charts.js */ 265));
+var _configUcharts = _interopRequireDefault(__webpack_require__(/*! ../../js_sdk/u-charts/config-ucharts.js */ 266));
 //
 //
 //
@@ -456,81 +306,238 @@ var _configUcharts = _interopRequireDefault(__webpack_require__(/*! ../../js_sdk
 //
 //
 //
-function deepCloneAssign() {var origin = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};for (var _len = arguments.length, args = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {args[_key - 1] = arguments[_key];}for (var i in args) {for (var key in args[i]) {if (args[i].hasOwnProperty(key)) {origin[key] = args[i][key] && typeof args[i][key] === 'object' ? deepCloneAssign(Array.isArray(args[i][key]) ? [] : {}, origin[key], args[i][key]) : args[i][key];}}}return origin;}function formatterAssign(args, formatter) {for (var key in args) {if (args.hasOwnProperty(key) && args[key] !== null && typeof args[key] === 'object') {formatterAssign(args[key], formatter);} else if (key === 'format' && typeof args[key] === 'string') {args['formatter'] = formatter[args[key]] ? formatter[args[key]] : undefined;}}return args;} // 时间转换函数，为了匹配uniClinetDB读取出的时间与categories不同
-function getFormatDate(date) {var seperator = "-";var year = date.getFullYear();var month = date.getMonth() + 1;var strDate = date.getDate();if (month >= 1 && month <= 9) {month = "0" + month;}if (strDate >= 0 && strDate <= 9) {strDate = "0" + strDate;}var currentdate = year + seperator + month + seperator + strDate;return currentdate;}var lastMoveTime = null; /**
-                                                                                                                                                                                                                                                                                                                                                                            * 防抖
-                                                                                                                                                                                                                                                                                                                                                                            *
-                                                                                                                                                                                                                                                                                                                                                                            * @param { Function } fn 要执行的方法
-                                                                                                                                                                                                                                                                                                                                                                            * @param { Number } wait  防抖多少毫秒
-                                                                                                                                                                                                                                                                                                                                                                            *
-                                                                                                                                                                                                                                                                                                                                                                            * 在 vue 中使用（注意：不能使用箭头函数，否则this指向不对，并且不能再次封装如：
-                                                                                                                                                                                                                                                                                                                                                                            * move(){  // 错误调用方式
-                                                                                                                                                                                                                                                                                                                                                                            *   debounce(function () {
-                                                                                                                                                                                                                                                                                                                                                                            *   console.log(this.title);
-                                                                                                                                                                                                                                                                                                                                                                            * }, 1000)}）;
-                                                                                                                                                                                                                                                                                                                                                                            * 应该直接使用：// 正确调用方式
-                                                                                                                                                                                                                                                                                                                                                                            * move: debounce(function () {
-                                                                                                                                                                                                                                                                                                                                                                            *   console.log(this.title);
-                                                                                                                                                                                                                                                                                                                                                                            * }, 1000)
-                                                                                                                                                                                                                                                                                                                                                                            */function debounce(fn, wait) {var timer = false;return function () {var _arguments = arguments,_this2 = this;clearTimeout(timer);timer && clearTimeout(timer);timer = setTimeout(function () {timer = false;fn.apply(_this2, _arguments); // 把参数传进去
-    }, wait);};}var _default2 = { name: 'qiun-data-charts', mixins: [uniCloud.mixinDatacom], props: { type: { type: String, default: null }, canvasId: { type: String, default: 'uchartsid' }, canvas2d: { type: Boolean, default: false }, background: { type: String, default: 'rgba(0,0,0,0)' }, animation: { type: Boolean, default: true }, chartData: { type: Object, default: function _default() {return { categories: [], series: [] };} }, opts: { type: Object, default: function _default() {return {};} }, eopts: { type: Object, default: function _default() {return {};} }, loadingType: { type: Number, default: 2 }, errorShow: { type: Boolean, default: true }, errorReload: { type: Boolean, default: true }, errorMessage: { type: String, default: null }, inScrollView: { type: Boolean, default: false }, reshow: { type: Boolean, default: false }, reload: { type: Boolean, default: false }, disableScroll: { type: Boolean, default: false }, optsWatch: { type: Boolean, default: true }, onzoom: { type: Boolean, default: false }, ontap: { type: Boolean, default: true }, ontouch: { type: Boolean, default: false }, onmouse: { type: Boolean, default: true }, onmovetip: { type: Boolean, default: false }, echartsH5: { type: Boolean,
-      default: false },
+//
+
+function deepCloneAssign() {
+  var origin = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  for (var _len = arguments.length, args = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+    args[_key - 1] = arguments[_key];
+  }
+  for (var i in args) {
+    for (var key in args[i]) {
+      if (args[i].hasOwnProperty(key)) {
+        origin[key] = args[i][key] && (0, _typeof2.default)(args[i][key]) === 'object' ? deepCloneAssign(Array.isArray(args[i][key]) ? [] : {}, origin[key], args[i][key]) : args[i][key];
+      }
+    }
+  }
+  return origin;
+}
+function formatterAssign(args, formatter) {
+  for (var key in args) {
+    if (args.hasOwnProperty(key) && args[key] !== null && (0, _typeof2.default)(args[key]) === 'object') {
+      formatterAssign(args[key], formatter);
+    } else if (key === 'format' && typeof args[key] === 'string') {
+      args['formatter'] = formatter[args[key]] ? formatter[args[key]] : undefined;
+    }
+  }
+  return args;
+}
 
+// 时间转换函数，为了匹配uniClinetDB读取出的时间与categories不同
+function getFormatDate(date) {
+  var seperator = "-";
+  var year = date.getFullYear();
+  var month = date.getMonth() + 1;
+  var strDate = date.getDate();
+  if (month >= 1 && month <= 9) {
+    month = "0" + month;
+  }
+  if (strDate >= 0 && strDate <= 9) {
+    strDate = "0" + strDate;
+  }
+  var currentdate = year + seperator + month + seperator + strDate;
+  return currentdate;
+}
+var lastMoveTime = null;
+/**
+ * 防抖
+ *
+ * @param { Function } fn 要执行的方法
+ * @param { Number } wait  防抖多少毫秒
+ *
+ * 在 vue 中使用（注意：不能使用箭头函数，否则this指向不对，并且不能再次封装如：
+ * move(){  // 错误调用方式
+ *   debounce(function () {
+ *   console.log(this.title);
+ * }, 1000)}）;
+ * 应该直接使用：// 正确调用方式
+ * move: debounce(function () {
+ *   console.log(this.title);
+ * }, 1000)
+ */
+function debounce(fn, wait) {
+  var timer = false;
+  return function () {
+    var _arguments = arguments,
+      _this2 = this;
+    clearTimeout(timer);
+    timer && clearTimeout(timer);
+    timer = setTimeout(function () {
+      timer = false;
+      fn.apply(_this2, _arguments); // 把参数传进去
+    }, wait);
+  };
+}
+var _default2 = {
+  name: 'qiun-data-charts',
+  mixins: [uniCloud.mixinDatacom],
+  props: {
+    type: {
+      type: String,
+      default: null
+    },
+    canvasId: {
+      type: String,
+      default: 'uchartsid'
+    },
+    canvas2d: {
+      type: Boolean,
+      default: false
+    },
+    background: {
+      type: String,
+      default: 'rgba(0,0,0,0)'
+    },
+    animation: {
+      type: Boolean,
+      default: true
+    },
+    chartData: {
+      type: Object,
+      default: function _default() {
+        return {
+          categories: [],
+          series: []
+        };
+      }
+    },
+    opts: {
+      type: Object,
+      default: function _default() {
+        return {};
+      }
+    },
+    eopts: {
+      type: Object,
+      default: function _default() {
+        return {};
+      }
+    },
+    loadingType: {
+      type: Number,
+      default: 2
+    },
+    errorShow: {
+      type: Boolean,
+      default: true
+    },
+    errorReload: {
+      type: Boolean,
+      default: true
+    },
+    errorMessage: {
+      type: String,
+      default: null
+    },
+    inScrollView: {
+      type: Boolean,
+      default: false
+    },
+    reshow: {
+      type: Boolean,
+      default: false
+    },
+    reload: {
+      type: Boolean,
+      default: false
+    },
+    disableScroll: {
+      type: Boolean,
+      default: false
+    },
+    optsWatch: {
+      type: Boolean,
+      default: true
+    },
+    onzoom: {
+      type: Boolean,
+      default: false
+    },
+    ontap: {
+      type: Boolean,
+      default: true
+    },
+    ontouch: {
+      type: Boolean,
+      default: false
+    },
+    onmouse: {
+      type: Boolean,
+      default: true
+    },
+    onmovetip: {
+      type: Boolean,
+      default: false
+    },
+    echartsH5: {
+      type: Boolean,
+      default: false
+    },
     echartsApp: {
       type: Boolean,
-      default: false },
-
+      default: false
+    },
     tooltipShow: {
       type: Boolean,
-      default: true },
-
+      default: true
+    },
     tooltipFormat: {
       type: String,
-      default: undefined },
-
+      default: undefined
+    },
     tooltipCustom: {
       type: Object,
-      default: undefined },
-
+      default: undefined
+    },
     startDate: {
       type: String,
-      default: undefined },
-
+      default: undefined
+    },
     endDate: {
       type: String,
-      default: undefined },
-
+      default: undefined
+    },
     textEnum: {
       type: Array,
       default: function _default() {
         return [];
-      } },
-
+      }
+    },
     groupEnum: {
       type: Array,
       default: function _default() {
         return [];
-      } },
-
+      }
+    },
     pageScrollTop: {
       type: Number,
-      default: 0 },
-
+      default: 0
+    },
     directory: {
       type: String,
-      default: '/' },
-
+      default: '/'
+    },
     tapLegend: {
       type: Boolean,
-      default: true },
-
+      default: true
+    },
     menus: {
       type: Array,
       default: function _default() {
         return [];
-      } } },
-
-
+      }
+    }
+  },
   data: function data() {
     return {
       cid: 'uchartsid',
@@ -550,13 +557,13 @@ function getFormatDate(date) {var seperator = "-";var year = date.getFullYear();
       showchart: false,
       echarts: false,
       echartsResize: {
-        state: false },
-
+        state: false
+      },
       uchartsOpts: {},
       echartsOpts: {},
       drawData: {},
-      lastDrawTime: null };
-
+      lastDrawTime: null
+    };
   },
   created: function created() {
     this.cid = this.canvasId;
@@ -573,7 +580,6 @@ function getFormatDate(date) {var seperator = "-";var year = date.getFullYear();
     if (systemInfo.platform === 'windows' || systemInfo.platform === 'mac') {
       this.inWin = true;
     }
-
     this.inWx = true;
     if (this.canvas2d === false || systemInfo.platform === 'windows' || systemInfo.platform === 'mac') {
       this.type2d = false;
@@ -584,53 +590,16 @@ function getFormatDate(date) {var seperator = "-";var year = date.getFullYear();
 
     //非微信小程序端强制关闭canvas2d模式
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     this.disScroll = this.disableScroll;
   },
-  mounted: function mounted() {var _this3 = this;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  mounted: function mounted() {
+    var _this3 = this;
     this.$nextTick(function () {
       _this3.beforeInit();
     });
-
     var time = this.inH5 ? 500 : 200;
     var _this = this;
-    uni.onWindowResize(
-    debounce(function (res) {
+    uni.onWindowResize(debounce(function (res) {
       if (_this.mixinDatacomLoading == true) {
         return;
       }
@@ -644,8 +613,6 @@ function getFormatDate(date) {var seperator = "-";var year = date.getFullYear();
         _this.resizeHandler();
       }
     }, time));
-
-
   },
   destroyed: function destroyed() {
     if (this.echarts === true) {
@@ -655,14 +622,12 @@ function getFormatDate(date) {var seperator = "-";var year = date.getFullYear();
       delete _configUcharts.default.option[this.cid];
       delete _configUcharts.default.instance[this.cid];
     }
-
     uni.offWindowResize(function () {});
-
   },
   watch: {
     chartDataProps: {
       handler: function handler(val, oldval) {
-        if (typeof val === 'object') {
+        if ((0, _typeof2.default)(val) === 'object') {
           if (JSON.stringify(val) !== JSON.stringify(oldval)) {
             this._clearChart();
             if (val.series && val.series.length > 0) {
@@ -681,8 +646,8 @@ function getFormatDate(date) {var seperator = "-";var year = date.getFullYear();
         }
       },
       immediate: false,
-      deep: true },
-
+      deep: true
+    },
     localdata: {
       handler: function handler(val, oldval) {
         if (JSON.stringify(val) !== JSON.stringify(oldval)) {
@@ -697,11 +662,11 @@ function getFormatDate(date) {var seperator = "-";var year = date.getFullYear();
         }
       },
       immediate: false,
-      deep: true },
-
+      deep: true
+    },
     optsProps: {
       handler: function handler(val, oldval) {
-        if (typeof val === 'object') {
+        if ((0, _typeof2.default)(val) === 'object') {
           if (JSON.stringify(val) !== JSON.stringify(oldval) && this.echarts === false && this.optsWatch == true) {
             this.checkData(this.drawData);
           }
@@ -713,11 +678,11 @@ function getFormatDate(date) {var seperator = "-";var year = date.getFullYear();
         }
       },
       immediate: false,
-      deep: true },
-
+      deep: true
+    },
     eoptsProps: {
       handler: function handler(val, oldval) {
-        if (typeof val === 'object') {
+        if ((0, _typeof2.default)(val) === 'object') {
           if (JSON.stringify(val) !== JSON.stringify(oldval) && this.echarts === true) {
             this.checkData(this.drawData);
           }
@@ -728,9 +693,10 @@ function getFormatDate(date) {var seperator = "-";var year = date.getFullYear();
         }
       },
       immediate: false,
-      deep: true },
-
-    reshow: function reshow(val, oldval) {var _this4 = this;
+      deep: true
+    },
+    reshow: function reshow(val, oldval) {
+      var _this4 = this;
       if (val === true && this.mixinDatacomLoading === false) {
         setTimeout(function () {
           _this4.mixinDatacomErrorMessage = null;
@@ -748,7 +714,15 @@ function getFormatDate(date) {var seperator = "-";var year = date.getFullYear();
     },
     mixinDatacomErrorMessage: function mixinDatacomErrorMessage(val, oldval) {
       if (val) {
-        this.emitMsg({ name: 'error', params: { type: "error", errorShow: this.errorShow, msg: val, id: this.cid } });
+        this.emitMsg({
+          name: 'error',
+          params: {
+            type: "error",
+            errorShow: this.errorShow,
+            msg: val,
+            id: this.cid
+          }
+        });
         if (this.errorShow) {
           console.log('[秋云图表组件]' + val);
         }
@@ -764,8 +738,8 @@ function getFormatDate(date) {var seperator = "-";var year = date.getFullYear();
         this.mixinDatacomErrorMessage = null;
         this.reloading();
       }
-    } },
-
+    }
+  },
   computed: {
     optsProps: function optsProps() {
       return JSON.parse(JSON.stringify(this.opts));
@@ -775,12 +749,12 @@ function getFormatDate(date) {var seperator = "-";var year = date.getFullYear();
     },
     chartDataProps: function chartDataProps() {
       return JSON.parse(JSON.stringify(this.chartData));
-    } },
-
+    }
+  },
   methods: {
     beforeInit: function beforeInit() {
       this.mixinDatacomErrorMessage = null;
-      if (typeof this.chartData === 'object' && this.chartData != null && this.chartData.series !== undefined && this.chartData.series.length > 0) {
+      if ((0, _typeof2.default)(this.chartData) === 'object' && this.chartData != null && this.chartData.series !== undefined && this.chartData.series.length > 0) {
         //拷贝一下chartData，为了opts变更后统一数据来源
         this.drawData = deepCloneAssign({}, this.chartData);
         this.mixinDatacomLoading = false;
@@ -818,7 +792,10 @@ function getFormatDate(date) {var seperator = "-";var year = date.getFullYear();
         }
       }
       var needCategories = false;
-      var tmpData = { categories: [], series: [] };
+      var tmpData = {
+        categories: [],
+        series: []
+      };
       var tmpcategories = [];
       var tmpseries = [];
       //拼接categories
@@ -858,13 +835,19 @@ function getFormatDate(date) {var seperator = "-";var year = date.getFullYear();
       var tempskey = {};
       resdata.map(function (item, index) {
         if (item.group != undefined && !tempskey[item.group]) {
-          tmpseries.push({ name: item.group, data: [] });
+          tmpseries.push({
+            name: item.group,
+            data: []
+          });
           tempskey[item.group] = true;
         }
       });
       //如果没有获取到分组名称(可能是带categories的数据，也可能是不带的饼图类)
       if (tmpseries.length == 0) {
-        tmpseries = [{ name: '默认分组', data: [] }];
+        tmpseries = [{
+          name: '默认分组',
+          data: []
+        }];
         //如果是需要categories的图表类型
         if (needCategories === true) {
           for (var _j2 = 0; _j2 < tmpcategories.length; _j2++) {
@@ -879,7 +862,10 @@ function getFormatDate(date) {var seperator = "-";var year = date.getFullYear();
           //如果是饼图类的图表类型
         } else {
           for (var _i3 = 0; _i3 < resdata.length; _i3++) {
-            tmpseries[0].data.push({ "name": resdata[_i3].text, "value": resdata[_i3].value });
+            tmpseries[0].data.push({
+              "name": resdata[_i3].text,
+              "value": resdata[_i3].value
+            });
           }
         }
         //如果有分组名
@@ -924,7 +910,8 @@ function getFormatDate(date) {var seperator = "-";var year = date.getFullYear();
         this.beforeInit();
       }
     },
-    checkData: function checkData(anyData) {var _this5 = this;
+    checkData: function checkData(anyData) {
+      var _this5 = this;
       var cid = this.cid;
       //复位opts或eopts
       if (this.echarts === true) {
@@ -959,39 +946,32 @@ function getFormatDate(date) {var seperator = "-";var year = date.getFullYear();
         }
       }
     },
-    resizeHandler: function resizeHandler() {var _this6 = this;
+    resizeHandler: function resizeHandler() {
+      var _this6 = this;
       //渲染防抖
       var currTime = Date.now();
       var lastDrawTime = this.lastDrawTime ? this.lastDrawTime : currTime - 3000;
       var duration = currTime - lastDrawTime;
       if (duration < 1000) return;
-      var chartdom = uni.
-      createSelectorQuery().
-
-      in(this).
-
-      select('#ChartBoxId' + this.cid).
-      boundingClientRect(function (data) {
+      var chartdom = uni.createSelectorQuery().in(this).select('#ChartBoxId' + this.cid).boundingClientRect(function (data) {
         _this6.showchart = true;
         if (data.width > 0 && data.height > 0) {
           if (data.width !== _this6.cWidth || data.height !== _this6.cHeight) {
             _this6.checkData(_this6.drawData);
           }
         }
-      }).
-      exec();
+      }).exec();
     },
-    getCloudData: function getCloudData() {var _this7 = this;
+    getCloudData: function getCloudData() {
+      var _this7 = this;
       if (this.mixinDatacomLoading == true) {
         return;
       }
       this.mixinDatacomLoading = true;
-      this.mixinDatacomGet().
-      then(function (res) {
+      this.mixinDatacomGet().then(function (res) {
         _this7.mixinDatacomResData = res.result.data;
         _this7.localdataInit(_this7.mixinDatacomResData);
-      }).
-      catch(function (err) {
+      }).catch(function (err) {
         _this7.mixinDatacomLoading = false;
         _this7.showchart = false;
         _this7.mixinDatacomErrorMessage = '请求错误：' + err;
@@ -1009,21 +989,16 @@ function getFormatDate(date) {var seperator = "-";var year = date.getFullYear();
       var cid = this.cid;
       if (this.echarts !== true && _configUcharts.default.option[cid] && _configUcharts.default.option[cid].context) {
         var ctx = _configUcharts.default.option[cid].context;
-        if (typeof ctx === "object" && !!!_configUcharts.default.option[cid].update) {
+        if ((0, _typeof2.default)(ctx) === "object" && !!!_configUcharts.default.option[cid].update) {
           ctx.clearRect(0, 0, this.cWidth * this.pixel, this.cHeight * this.pixel);
           ctx.draw();
         }
       }
     },
-    init: function init() {var _this8 = this;
+    init: function init() {
+      var _this8 = this;
       var cid = this.cid;
-      var chartdom = uni.
-      createSelectorQuery().
-
-      in(this).
-
-      select('#ChartBoxId' + cid).
-      boundingClientRect(function (data) {
+      var chartdom = uni.createSelectorQuery().in(this).select('#ChartBoxId' + cid).boundingClientRect(function (data) {
         if (data.width > 0 && data.height > 0) {
           _this8.mixinDatacomLoading = false;
           _this8.showchart = true;
@@ -1072,10 +1047,10 @@ function getFormatDate(date) {var seperator = "-";var year = date.getFullYear();
             _this8.$nextTick(function () {
               if (_this8.type2d === true) {
                 var query = uni.createSelectorQuery().in(_this8);
-                query.
-                select('#' + cid).
-                fields({ node: true, size: true }).
-                exec(function (res) {
+                query.select('#' + cid).fields({
+                  node: true,
+                  size: true
+                }).exec(function (res) {
                   if (res[0]) {
                     var canvas = res[0].node;
                     var ctx = canvas.getContext('2d');
@@ -1123,71 +1098,98 @@ function getFormatDate(date) {var seperator = "-";var year = date.getFullYear();
             _this8.mixinDatacomErrorMessage = '布局错误：未获取到父元素宽高尺寸！canvas-id:' + cid;
           }
         }
-      }).
-      exec();
+      }).exec();
     },
     saveImage: function saveImage() {
       uni.canvasToTempFilePath({
         canvasId: this.cid,
         success: function success(res) {
-
-
-
-
-
-
-
-
           uni.saveImageToPhotosAlbum({
             filePath: res.tempFilePath,
             success: function success() {
               uni.showToast({
                 title: '保存成功',
-                duration: 2000 });
-
-            } });
-
-
-        } },
-      this);
+                duration: 2000
+              });
+            }
+          });
+        }
+      }, this);
     },
-    getImage: function getImage() {var _this9 = this;
+    getImage: function getImage() {
+      var _this9 = this;
       if (this.type2d == false) {
         uni.canvasToTempFilePath({
           canvasId: this.cid,
           success: function success(res) {
-            _this9.emitMsg({ name: 'getImage', params: { type: "getImage", base64: res.tempFilePath } });
-          } },
-        this);
+            _this9.emitMsg({
+              name: 'getImage',
+              params: {
+                type: "getImage",
+                base64: res.tempFilePath
+              }
+            });
+          }
+        }, this);
       } else {
         var query = uni.createSelectorQuery().in(this);
-        query.
-        select('#' + this.cid).
-        fields({ node: true, size: true }).
-        exec(function (res) {
+        query.select('#' + this.cid).fields({
+          node: true,
+          size: true
+        }).exec(function (res) {
           if (res[0]) {
             var canvas = res[0].node;
-            _this9.emitMsg({ name: 'getImage', params: { type: "getImage", base64: canvas.toDataURL('image/png') } });
+            _this9.emitMsg({
+              name: 'getImage',
+              params: {
+                type: "getImage",
+                base64: canvas.toDataURL('image/png')
+              }
+            });
           }
         });
       }
     },
-
-    _newChart: function _newChart(cid) {var _this10 = this;
+    _newChart: function _newChart(cid) {
+      var _this10 = this;
       if (this.mixinDatacomLoading == true) {
         return;
       }
       this.showchart = true;
       _configUcharts.default.instance[cid] = new _uCharts.default(_configUcharts.default.option[cid]);
       _configUcharts.default.instance[cid].addEventListener('renderComplete', function () {
-        _this10.emitMsg({ name: 'complete', params: { type: "complete", complete: true, id: cid, opts: _configUcharts.default.instance[cid].opts } });
+        _this10.emitMsg({
+          name: 'complete',
+          params: {
+            type: "complete",
+            complete: true,
+            id: cid,
+            opts: _configUcharts.default.instance[cid].opts
+          }
+        });
         _configUcharts.default.instance[cid].delEventListener('renderComplete');
       });
       _configUcharts.default.instance[cid].addEventListener('scrollLeft', function () {
-        _this10.emitMsg({ name: 'scrollLeft', params: { type: "scrollLeft", scrollLeft: true, id: cid, opts: _configUcharts.default.instance[cid].opts } });
+        _this10.emitMsg({
+          name: 'scrollLeft',
+          params: {
+            type: "scrollLeft",
+            scrollLeft: true,
+            id: cid,
+            opts: _configUcharts.default.instance[cid].opts
+          }
+        });
       });
       _configUcharts.default.instance[cid].addEventListener('scrollRight', function () {
-        _this10.emitMsg({ name: 'scrollRight', params: { type: "scrollRight", scrollRight: true, id: cid, opts: _configUcharts.default.instance[cid].opts } });
+        _this10.emitMsg({
+          name: 'scrollRight',
+          params: {
+            type: "scrollRight",
+            scrollRight: true,
+            id: cid,
+            opts: _configUcharts.default.instance[cid].opts
+          }
+        });
       });
     },
     _updataUChart: function _updataUChart(cid) {
@@ -1196,7 +1198,7 @@ function getFormatDate(date) {var seperator = "-";var year = date.getFullYear();
     _tooltipDefault: function _tooltipDefault(item, category, index, opts) {
       if (category) {
         var data = item.data;
-        if (typeof item.data === "object") {
+        if ((0, _typeof2.default)(item.data) === "object") {
           data = item.data.value;
         }
         return category + ' ' + item.name + ':' + data;
@@ -1208,13 +1210,17 @@ function getFormatDate(date) {var seperator = "-";var year = date.getFullYear();
         }
       }
     },
-    _showTooltip: function _showTooltip(e) {var _this11 = this;
+    _showTooltip: function _showTooltip(e) {
+      var _this11 = this;
       var cid = this.cid;
       var tc = _configUcharts.default.option[cid].tooltipCustom;
       if (tc && tc !== undefined && tc !== null) {
         var offset = undefined;
         if (tc.x >= 0 && tc.y >= 0) {
-          offset = { x: tc.x, y: tc.y + 10 };
+          offset = {
+            x: tc.x,
+            y: tc.y + 10
+          };
         }
         _configUcharts.default.instance[cid].showToolTip(e, {
           index: tc.index,
@@ -1226,8 +1232,8 @@ function getFormatDate(date) {var seperator = "-";var year = date.getFullYear();
             } else {
               return _this11._tooltipDefault(item, category, index, opts);
             }
-          } });
-
+          }
+        });
       } else {
         _configUcharts.default.instance[cid].showToolTip(e, {
           formatter: function formatter(item, category, index, opts) {
@@ -1236,30 +1242,28 @@ function getFormatDate(date) {var seperator = "-";var year = date.getFullYear();
             } else {
               return _this11._tooltipDefault(item, category, index, opts);
             }
-          } });
-
+          }
+        });
       }
     },
-    _tap: function _tap(e, move) {var _this12 = this;
+    _tap: function _tap(e, move) {
+      var _this12 = this;
       var cid = this.cid;
       var currentIndex = null;
       var legendIndex = null;
       if (this.inScrollView === true || this.inAli) {
-        var chartdom = uni.
-        createSelectorQuery().
-
-        in(this).
-        select('#ChartBoxId' + cid).
-
-
-
-
-        boundingClientRect(function (data) {
+        var chartdom = uni.createSelectorQuery().in(this).select('#ChartBoxId' + cid).boundingClientRect(function (data) {
           e.changedTouches = [];
           if (_this12.inAli) {
-            e.changedTouches.unshift({ x: e.detail.clientX - data.left, y: e.detail.clientY - data.top });
+            e.changedTouches.unshift({
+              x: e.detail.clientX - data.left,
+              y: e.detail.clientY - data.top
+            });
           } else {
-            e.changedTouches.unshift({ x: e.detail.x - data.left, y: e.detail.y - data.top - _this12.pageScrollTop });
+            e.changedTouches.unshift({
+              x: e.detail.x - data.left,
+              y: e.detail.y - data.top - _this12.pageScrollTop
+            });
           }
           if (move) {
             if (_this12.tooltipShow === true) {
@@ -1274,10 +1278,22 @@ function getFormatDate(date) {var seperator = "-";var year = date.getFullYear();
             if (_this12.tooltipShow === true) {
               _this12._showTooltip(e);
             }
-            _this12.emitMsg({ name: 'getIndex', params: { type: "getIndex", event: { x: e.detail.x - data.left, y: e.detail.y - data.top }, currentIndex: currentIndex, legendIndex: legendIndex, id: cid, opts: _configUcharts.default.instance[cid].opts } });
+            _this12.emitMsg({
+              name: 'getIndex',
+              params: {
+                type: "getIndex",
+                event: {
+                  x: e.detail.x - data.left,
+                  y: e.detail.y - data.top
+                },
+                currentIndex: currentIndex,
+                legendIndex: legendIndex,
+                id: cid,
+                opts: _configUcharts.default.instance[cid].opts
+              }
+            });
           }
-        }).
-        exec();
+        }).exec();
       } else {
         if (move) {
           if (this.tooltipShow === true) {
@@ -1285,7 +1301,10 @@ function getFormatDate(date) {var seperator = "-";var year = date.getFullYear();
           }
         } else {
           e.changedTouches = [];
-          e.changedTouches.unshift({ x: e.detail.x - e.currentTarget.offsetLeft, y: e.detail.y - e.currentTarget.offsetTop });
+          e.changedTouches.unshift({
+            x: e.detail.x - e.currentTarget.offsetLeft,
+            y: e.detail.y - e.currentTarget.offsetTop
+          });
           currentIndex = _configUcharts.default.instance[cid].getCurrentDataIndex(e);
           legendIndex = _configUcharts.default.instance[cid].getLegendDataIndex(e);
           if (this.tapLegend === true) {
@@ -1294,7 +1313,20 @@ function getFormatDate(date) {var seperator = "-";var year = date.getFullYear();
           if (this.tooltipShow === true) {
             this._showTooltip(e);
           }
-          this.emitMsg({ name: 'getIndex', params: { type: "getIndex", event: { x: e.detail.x, y: e.detail.y - e.currentTarget.offsetTop }, currentIndex: currentIndex, legendIndex: legendIndex, id: cid, opts: _configUcharts.default.instance[cid].opts } });
+          this.emitMsg({
+            name: 'getIndex',
+            params: {
+              type: "getIndex",
+              event: {
+                x: e.detail.x,
+                y: e.detail.y - e.currentTarget.offsetTop
+              },
+              currentIndex: currentIndex,
+              legendIndex: legendIndex,
+              id: cid,
+              opts: _configUcharts.default.instance[cid].opts
+            }
+          });
         }
       }
     },
@@ -1304,7 +1336,15 @@ function getFormatDate(date) {var seperator = "-";var year = date.getFullYear();
       if (_configUcharts.default.option[cid].enableScroll === true && e.touches.length == 1) {
         _configUcharts.default.instance[cid].scrollStart(e);
       }
-      this.emitMsg({ name: 'getTouchStart', params: { type: "touchStart", event: e.changedTouches[0], id: cid, opts: _configUcharts.default.instance[cid].opts } });
+      this.emitMsg({
+        name: 'getTouchStart',
+        params: {
+          type: "touchStart",
+          event: e.changedTouches[0],
+          id: cid,
+          opts: _configUcharts.default.instance[cid].opts
+        }
+      });
     },
     _touchMove: function _touchMove(e) {
       var cid = this.cid;
@@ -1322,19 +1362,34 @@ function getFormatDate(date) {var seperator = "-";var year = date.getFullYear();
       if (this.ontouch === true && _configUcharts.default.option[cid].enableScroll === true && this.onzoom === true && e.changedTouches.length == 2) {
         _configUcharts.default.instance[cid].dobuleZoom(e);
       }
-      this.emitMsg({ name: 'getTouchMove', params: { type: "touchMove", event: e.changedTouches[0], id: cid, opts: _configUcharts.default.instance[cid].opts } });
+      this.emitMsg({
+        name: 'getTouchMove',
+        params: {
+          type: "touchMove",
+          event: e.changedTouches[0],
+          id: cid,
+          opts: _configUcharts.default.instance[cid].opts
+        }
+      });
     },
     _touchEnd: function _touchEnd(e) {
       var cid = this.cid;
       if (_configUcharts.default.option[cid].enableScroll === true && e.touches.length == 0) {
         _configUcharts.default.instance[cid].scrollEnd(e);
       }
-      this.emitMsg({ name: 'getTouchEnd', params: { type: "touchEnd", event: e.changedTouches[0], id: cid, opts: _configUcharts.default.instance[cid].opts } });
+      this.emitMsg({
+        name: 'getTouchEnd',
+        params: {
+          type: "touchEnd",
+          event: e.changedTouches[0],
+          id: cid,
+          opts: _configUcharts.default.instance[cid].opts
+        }
+      });
       if (this.ontap === true && _configUcharts.default.option[cid].enableScroll === false && this.onmovetip === true) {
         this._tap(e, true);
       }
     },
-
     _error: function _error(e) {
       this.mixinDatacomErrorMessage = e.detail.errMsg;
     },
@@ -1349,31 +1404,34 @@ function getFormatDate(date) {var seperator = "-";var year = date.getFullYear();
     },
     toJSON: function toJSON() {
       return this;
-    } } };exports.default = _default2;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/uni-cloud/dist/index.js */ 235)["default"], __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+    }
+  }
+};
+exports.default = _default2;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/uni-cloud/dist/index.js */ 256)["default"], __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
 
-/***/ 240:
-/*!***********************************************************************************************************************************************************************************************!*\
-  !*** D:/HBuilderX.3.6.4.20220922/project/hello uniapp/uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts.vue?vue&type=style&index=0&id=fe947b98&scoped=true&lang=css& ***!
-  \***********************************************************************************************************************************************************************************************/
+/***/ 267:
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** D:/project/uniapp/hello uniapp/uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts.vue?vue&type=style&index=0&id=fe947b98&scoped=true&lang=css& ***!
+  \*****************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_stylePostLoader_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_2_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_style_index_0_id_fe947b98_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/cjs.js??ref--6-oneOf-1-1!../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-2!../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/postcss-loader/src??ref--6-oneOf-1-3!../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!./qiun-data-charts.vue?vue&type=style&index=0&id=fe947b98&scoped=true&lang=css& */ 241);
-/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_stylePostLoader_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_2_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_style_index_0_id_fe947b98_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_stylePostLoader_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_2_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_style_index_0_id_fe947b98_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_stylePostLoader_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_2_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_style_index_0_id_fe947b98_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_stylePostLoader_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_2_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_style_index_0_id_fe947b98_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
- /* harmony default export */ __webpack_exports__["default"] = (_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_stylePostLoader_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_2_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_style_index_0_id_fe947b98_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+/* harmony import */ var _HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_stylePostLoader_js_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_2_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_style_index_0_id_fe947b98_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../HBuilderX.3.6.18.20230117/HBuilderX/plugins/uniapp-cli/node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!../../../../../../../HBuilderX.3.6.18.20230117/HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/cjs.js??ref--6-oneOf-1-1!../../../../../../../HBuilderX.3.6.18.20230117/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../../HBuilderX.3.6.18.20230117/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-2!../../../../../../../HBuilderX.3.6.18.20230117/HBuilderX/plugins/uniapp-cli/node_modules/postcss-loader/src??ref--6-oneOf-1-3!../../../../../../../HBuilderX.3.6.18.20230117/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!../../../../../../../HBuilderX.3.6.18.20230117/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!./qiun-data-charts.vue?vue&type=style&index=0&id=fe947b98&scoped=true&lang=css& */ 268);
+/* harmony import */ var _HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_stylePostLoader_js_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_2_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_style_index_0_id_fe947b98_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_stylePostLoader_js_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_2_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_style_index_0_id_fe947b98_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_stylePostLoader_js_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_2_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_style_index_0_id_fe947b98_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_stylePostLoader_js_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_2_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_style_index_0_id_fe947b98_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_stylePostLoader_js_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_2_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_3_6_18_20230117_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_qiun_data_charts_vue_vue_type_style_index_0_id_fe947b98_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
-/***/ 241:
-/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-2!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/HBuilderX.3.6.4.20220922/project/hello uniapp/uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts.vue?vue&type=style&index=0&id=fe947b98&scoped=true&lang=css& ***!
-  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ 268:
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-2!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/project/uniapp/hello uniapp/uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts.vue?vue&type=style&index=0&id=fe947b98&scoped=true&lang=css& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1389,7 +1447,7 @@ __webpack_require__.r(__webpack_exports__);
     'uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts-create-component',
     {
         'uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts-create-component':(function(module, exports, __webpack_require__){
-            __webpack_require__('1')['createComponent'](__webpack_require__(230))
+            __webpack_require__('2')['createComponent'](__webpack_require__(251))
         })
     },
     [['uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts-create-component']]

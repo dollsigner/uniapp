@@ -1,6 +1,27 @@
 
+.main{
+	background-color: white;
+}
 .ratio{
 	width: 50%;
+}
+.space{
+	height: 50rpx;
+	background-color: white;
+}
+.inputContanier{
+	position: absolute;
+	left: 40rpx;
+	height: 50rpx;
+	border-radius: 10%;
+	background-color: antiquewhite;
+}
+.inputContanier-small{
+	position: absolute;
+	left: 40rpx;
+	height: 50rpx;
+	border-radius: 10%;
+	background-color: antiquewhite;
 }
 .charts-box {
 	width: 100%;
