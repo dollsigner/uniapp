@@ -8,7 +8,9 @@
     "pages/mine/mine",
     "pages/mine/evaluation/evaluation",
     "pages/storage/add/add",
-    "pages/comboDetail/comboDetail"
+    "pages/comboDetail/comboDetail",
+    "pages/storage/add/addSelf/addSelf",
+    "pages/storage/add/addAuto/addAuto"
   ],
   "subPackages": [],
   "window": {

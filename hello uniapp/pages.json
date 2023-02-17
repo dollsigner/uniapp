@@ -69,7 +69,25 @@
 			}
 
 		}
-	],
+	    ,{
+            "path" : "pages/storage/add/addSelf/addSelf",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/storage/add/addAuto/addAuto",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

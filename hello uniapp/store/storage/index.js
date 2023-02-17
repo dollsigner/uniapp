@@ -1,7 +1,12 @@
 const state = {
 	stockCheckedList: [],
 	comboCheckedList: [],
-	fundCheckedList: []
+	fundCheckedList: [],
+	selfStocks: [],
+	selfFunds: [],
+	autoStocks: [],
+	autoFunds: [],
+	
 }
 const mutations = {
 	SETSTOCK(state, stockList){
@@ -12,7 +17,19 @@ const mutations = {
 	},
 	SETFUND(state, fundList){
 		state.fundCheckedList = fundList
-	}
+	},
+	SETSELFSTOCK(state, selfStocks){
+		state.selfStocks = selfStocks
+	},
+	SETSELFFUND(state, selfFunds){
+		state.selfFunds = selfFunds
+	},
+	SETAUTOSTOCK(state, autoStocks){
+		state.autoStocks = autoStocks
+	},
+	SETAUTOFUND(state, autoFunds){
+		state.autoFunds = autoFunds
+	},
 }
 const actions = {}
 const getters = {}

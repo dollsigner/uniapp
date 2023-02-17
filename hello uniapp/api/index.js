@@ -94,7 +94,7 @@ export const reqQueryRepo = (sessionKey) => {
 }
 
 //添加组合
-export const addCombo = (sessionKey, options = {}) => {
+export const reqAddCombo = (sessionKey, options = {}) => {
 	return request2({
 		url: '/addCombo',
 		method: 'POST',
